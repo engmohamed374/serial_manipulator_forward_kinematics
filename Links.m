@@ -28,7 +28,7 @@ classdef Links
            obj.a_matrix = [cos(obj.theta)  -sin(obj.theta)*round(cos(obj.alpha), 15)    sin(obj.theta)*round(sin(obj.alpha), 15)     obj.a*cos(obj.theta);
                            sin(obj.theta)  cos(obj.theta)*round(cos(obj.alpha), 15)     -cos(obj.theta)*round(sin(obj.alpha), 15)    obj.a*sin(obj.theta);
                            0               round(sin(obj.alpha), 15)                    round(cos(obj.alpha), 15)                    obj.d;
-                           0               0                                            0                                            1              ]; 
+                           0               0                                            0                                            1                    ]; 
         end
     end
 end
