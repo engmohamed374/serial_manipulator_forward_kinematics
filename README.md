@@ -6,6 +6,10 @@ A matlab code for generating the forward kinematic matrices of any serial manipu
 	- First, enter the number of joints
 	- Then, enter the type of each joint (revolute or prismatic)
 	- Finaly, enter the DH parameters of each joint
+1. DH parameters will be displayed as well as the DH matrix
 
 ## License
 There is no license, you can do whatever you like with it. :smile:
+
+## Issues
+If you encountered a problem or found a bug, just open a new issue and I will reply soon.
