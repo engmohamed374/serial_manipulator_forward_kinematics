@@ -1,4 +1,4 @@
-# serial_manipulator_forward_kinematics
+# serial_manipulator_kinematics
 A matlab code for generating the forward kinematic matrices of any serial manipulator up to 6DOF using DH method.
 ## Purpose
 This project is intended to be used to generate dynamic equations of any serial manipulator up to 6DOF. These equations will be suitable to be used in simulating the robot dynamics and developing controllers for a such robot.
