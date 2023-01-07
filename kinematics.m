@@ -37,7 +37,7 @@ end
 
 % Get DH parameters from the user link by link
 for i = 1:number_of_joints
-    disp("Enter DH Parameters of joint No " + string(i));
+    disp("Enter DH Parameters of joint No " + string(i) + " (hit enter if there is no value)");
     dh_input = input("alpha" + string(i) + " = ");
     if ~isempty(dh_input)
         Links(i).alpha = dh_input;
