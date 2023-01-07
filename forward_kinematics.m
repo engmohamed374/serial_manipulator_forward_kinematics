@@ -1,8 +1,12 @@
-function [A,links_matrix] = forward_kinematics(n,links_matrix)
+function [A,Links] = forward_kinematics(Links)
+    % Calculate DH matrix of forward kinematics
     A = eye(4);
+    n = length(Links);
+    
+    % Multiply a_matrices (Loop Closure Eqn)
     for i = 1:n
-        links_matrix(i) = links_matrix(i).calculate_a_matrix;
-        A = A*links_matrix(i).a_matrix;
+        Links(i) = Links(i).calculate_a_matrix;
+        A = A*Links(i).a_matrix;
     end
     A = simplify(A);
 end
