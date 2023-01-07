@@ -1,5 +1,5 @@
-# serial_manipulator_kinematics
-A matlab code for generating the forward kinematics and jacobian matrices of any serial manipulator up to 6DOF using DH method.
+# serial_manipulator_kinematics_dynamics
+A Matlab code for generating the forward kinematics and jacobian matrices and dynamic equations of any serial manipulator up to 6DOF using the DH method.
 ## Purpose
 This project is intended to be used to generate dynamic equations of any serial manipulator up to 6DOF. These equations will be suitable to be used in simulating the robot dynamics and developing controllers for a such robot.
 ## How To Use?
